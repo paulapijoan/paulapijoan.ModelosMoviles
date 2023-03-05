@@ -1,0 +1,71 @@
+.mobile-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.titulos{
+    justify-content: center;
+    text-align: center;
+}
+  
+.mobile-table th {
+    text-align: left;
+    font-weight: normal;
+    font-size: large;
+    font-style: oblique;
+    color: black;
+    padding: 1em;
+    background-color: rgba(156, 182, 221, 0.608);
+}
+
+.mobile-table td:hover{
+    background-color: antiquewhite;
+}
+ 
+.mobile-table td {
+    text-align: center;
+    font-weight: normal;
+    font-size: large;
+    color: black;
+    padding: 1em;
+    background-color: rgb(232, 231, 231);
+}
+ 
+  
+.mobile-table td:last-child img {
+    max-width: 100%;
+    height: auto;
+}
+
+.selector{
+    font-size: large;
+    font: bolder;
+    justify-content: center;
+    text-align: center;
+}
+
+table{
+    padding-left: 35em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+#foto {
+    max-width: 100%;
+    max-height: 60%;
+    display: block;
+}
+
+header{
+    background-color: rgb(245, 205, 211);
+    padding-top: 0em;
+    margin-top: 0em;
+}
+
+select{
+    padding: 5px;
+    margin: 5px;
+}
+
